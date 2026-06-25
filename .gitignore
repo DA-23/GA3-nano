@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Run outputs (regenerated per run; not version-controlled)
+Bayes/runs/
+runs/
+*.log
+
+# Local secrets / configs — NEVER commit credentials
+.env
+configs/config.yaml
+*.key
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

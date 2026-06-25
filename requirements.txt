@@ -1,0 +1,7 @@
+openai>=1.0
+pyyaml>=6.0
+
+# Optional: spaCy segmentation backend. If absent, the runner falls back to the
+# regex segmentation backend automatically (--segment-backend regex or auto).
+# spacy>=3.7
+# then: python -m spacy download en_core_web_sm
